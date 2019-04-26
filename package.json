@@ -1,7 +1,8 @@
 {
-  "name": "to-do-react-transition",
+  "name": "to-do-list-endeavor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zubairahmed25.github.io/react-app-to-do-list-endeavor",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.1",
@@ -12,7 +13,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
+   
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
